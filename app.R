@@ -50,7 +50,7 @@ addListener <- '
 
 if(!file.exists("log.csv")){
   log <- data.frame(inputVal = "", inputId = "", UserIp = "", time = "")
-  write.table(log, "log/log.csv", sep = ";", append = TRUE,  row.names = FALSE, col.names = TRUE)
+  write.table(log, "log.csv", sep = ";", append = TRUE,  row.names = FALSE, col.names = TRUE)
 }
 
 
